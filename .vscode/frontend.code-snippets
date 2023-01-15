@@ -75,7 +75,7 @@
     "scope": "javascript,typescript,vue",
     "prefix": "com",
     "body": [
-      "computed(() => { $1 })"
+      "computed(() => $1)"
     ]
   },
   "Vue Watch Effect": {
