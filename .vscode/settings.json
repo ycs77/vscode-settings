@@ -7,7 +7,7 @@
   "editor.fontFamily": "Consolas, Courier New, Microsoft JhengHei, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 14,
-  "editor.suggestLineHeight": 24,
+  "editor.suggestLineHeight": 20,
   "editor.tabSize": 2,
   "window.zoomLevel": 1,
 
