@@ -1,0 +1,36 @@
+{
+  "recommendations": [
+    // Theme
+    "pkief.material-icon-theme",
+    "sdras.night-owl",
+
+    // CSS
+    "bradlc.vscode-tailwindcss",
+    "antfu.unocss",
+    "voorjaar.windicss-intellisense",
+
+    // Vue
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+
+    // Laravel
+    "onecentlin.laravel-blade",
+    "bmewburn.vscode-intelephense-client",
+    "mehedidracula.php-namespace-resolver",
+    "neilbrayfield.php-docblocker",
+    "m1guelpf.better-pest",
+
+    // Plugins support
+    "ms-ceintl.vscode-language-pack-zh-hant",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "dbaeumer.vscode-eslint",
+  
+    // Tools
+    "mkxml.vscode-filesize",
+    "usernamehw.errorlens",
+    "antfu.goto-alias",
+    "mhutchie.git-graph",
+  ]
+}

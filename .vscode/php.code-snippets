@@ -1,0 +1,130 @@
+{
+	"Class File": {
+    "scope": "html",
+		"prefix": "phpclass",
+		"body": [
+			"<?php",
+			"",
+			"class ${TM_FILENAME_BASE}",
+			"{",
+			"    $1",
+			"}",
+			"",
+		],
+		"description": "New class file."
+	},
+	"Interface File": {
+    "scope": "html",
+		"prefix": "phpclass",
+		"body": [
+			"<?php",
+			"",
+			"interface ${TM_FILENAME_BASE}",
+			"{",
+			"    $1",
+			"}",
+			"",
+		],
+		"description": "New interface file."
+	},
+	"Class": {
+    "scope": "php",
+		"prefix": "class",
+		"body": [
+			"class ${TM_FILENAME_BASE}",
+			"{",
+			"    $1",
+			"}",
+			"",
+		],
+		"description": "New class."
+	},
+	"Public Method": {
+    "scope": "php",
+		"prefix": "met",
+		"body": [
+			"public function $1()",
+			"{",
+			"    $2",
+			"}",
+		],
+		"description": "New public method."
+	},
+	"Protected Method": {
+    "scope": "php",
+		"prefix": "pmet",
+		"body": [
+			"protected function $1()",
+			"{",
+			"    $2",
+			"}",
+		],
+		"description": "New protected method."
+	},
+	"Construct Method": {
+    "scope": "php",
+		"prefix": "_con",
+		"body": [
+			"/**",
+			" * Create a new${TM_FILENAME_BASE/([A-Z])/ ${1:/downcase}/g} instance.",
+			" *",
+			" * @return void",
+			" */",
+			"public function __construct()",
+			"{",
+			"    $1",
+			"}",
+		],
+		"description": "New construct method."
+	},
+	"Public Property": {
+    "scope": "php",
+		"prefix": "prop",
+		"body": [
+			"/**",
+			" * The ${TM_SELECTED_TEXT} instance.",
+			" *",
+			" * @var ${TM_SELECTED_TEXT}",
+			" */",
+			"public $${TM_SELECTED_TEXT};",
+		],
+		"description": "New public property."
+	},
+	"Protected Property": {
+    "scope": "php",
+		"prefix": "pprop",
+		"body": [
+			"/**",
+			" * The${TM_SELECTED_TEXT/([A-Z])/ ${1:/downcase}/g} instance.",
+			" *",
+			" * @var ${TM_SELECTED_TEXT}",
+			" */",
+			"protected $${TM_SELECTED_TEXT/([A-Z])/${1:/downcase}/};",
+		],
+		"description": "New protected property."
+	},
+	"Dependency Injection Construct Method": {
+    "scope": "php",
+		"prefix": "dep",
+		"body": [
+			"/**",
+			" * The${TM_SELECTED_TEXT/([A-Z])/ ${1:/downcase}/g} instance.",
+			" *",
+			" * @var ${TM_SELECTED_TEXT}",
+			" */",
+			"protected $${TM_SELECTED_TEXT/([A-Z])/${1:/downcase}/};",
+			"",
+			"/**",
+			" * Create a new${TM_FILENAME_BASE/([A-Z])/ ${1:/downcase}/g} instance.",
+			" *",
+			" * @param  ${TM_SELECTED_TEXT}  $${TM_SELECTED_TEXT/([A-Z])/${1:/downcase}/}",
+			" * @return void",
+			" */",
+			"public function __construct(${TM_SELECTED_TEXT} $${TM_SELECTED_TEXT/([A-Z])/${1:/downcase}/})",
+			"{",
+			"    \\$this->${TM_SELECTED_TEXT/([A-Z])/${1:/downcase}/} = $${TM_SELECTED_TEXT/([A-Z])/${1:/downcase}/};",
+			"}",
+		],
+		"description": "New dependency injection construct method."
+	}
+}

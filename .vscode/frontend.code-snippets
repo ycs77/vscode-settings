@@ -1,0 +1,90 @@
+{
+	"Print to console": {
+    "scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log()"
+		],
+		"description": "Log output to console."
+	},
+	"Function": {
+    "scope": "javascript,typescript",
+		"prefix": "ff",
+		"body": [
+			"function $1() {",
+			"\t",
+			"}"
+		]
+	},
+	"Arrow Function": {
+    "scope": "javascript,typescript",
+		"prefix": "af",
+		"body": [
+			"() => {",
+			"\t",
+			"}"
+		]
+	},
+	"Single Arrow Function": {
+    "scope": "javascript,typescript",
+		"prefix": "sf",
+		"body": [
+			"() => "
+		]
+	},
+  "Import Module": {
+    "scope": "javascript,typescript",
+    "prefix": "im",
+    "body": [
+      "import { $1 } from '$2'"
+    ],
+    "description": "Import a module."
+  },
+  "Export All": {
+    "scope": "javascript,typescript",
+    "prefix": "ex",
+    "body": [
+      "export * from '$2'"
+    ],
+    "description": "Export a module."
+  },
+	"Vue SFC File": {
+    "scope": "vue",
+		"prefix": "vue",
+		"body": [
+			"<template>",
+      "  <div>",
+      "",
+      "  </div>",
+			"</template>",
+			"",
+			"<script setup lang=\"ts\">",
+			"",
+			"</script>",
+			""
+		]
+	},
+  "Vue Template Ref": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "tref",
+    "body": [
+      "const ${1:el} = shallowRef<HTMLDivElement>()",
+    ]
+  },
+  "Vue Computed": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "com",
+    "body": [
+      "computed(() => { $1 })"
+    ]
+  },
+  "Vue Watch Effect": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "watchE",
+    "body": [
+      "watchEffect(() => {",
+      "  $1",
+      "})"
+    ]
+  }
+}
