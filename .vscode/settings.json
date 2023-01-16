@@ -55,6 +55,7 @@
   "git.decorations.enabled": true,
   "scm.diffDecorations": "all",
   "problems.decorations.enabled": true,
+  "extensions.ignoreRecommendations": true,
 
   // Editor
   "editor.wordWrap": "on",
