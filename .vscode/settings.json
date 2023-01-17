@@ -23,7 +23,7 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "window.newWindowDimensions": "inherit",
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "files.insertFinalNewline": true,
