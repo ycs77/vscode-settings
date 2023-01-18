@@ -159,6 +159,10 @@
   "php.suggest.basic": false,
   "php.validate.executablePath": "C:/laragon/bin/php/php-8.1.8-Win32-vs16-x64/php.exe",
   "namespaceResolver.sortAlphabetically": true,
+  "[php]": {
+    // Set original word selection in php file.
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  },
   "better-phpunit.commandSuffix": "--no-coverage --no-logging",
   "better-pest.commandSuffix": "--no-coverage --no-logging",
 
