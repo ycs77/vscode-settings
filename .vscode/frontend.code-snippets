@@ -1,6 +1,6 @@
 {
 	"Print to console": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
 		"prefix": "log",
 		"body": [
 			"console.log()"
@@ -8,7 +8,7 @@
 		"description": "Log output to console."
 	},
 	"Function": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
 		"prefix": "ff",
 		"body": [
 			"function $1() {",
@@ -17,7 +17,7 @@
 		]
 	},
 	"Arrow Function": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
 		"prefix": "af",
 		"body": [
 			"() => {",
@@ -26,14 +26,14 @@
 		]
 	},
 	"Single Arrow Function": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
 		"prefix": "sf",
 		"body": [
 			"() => "
 		]
 	},
   "Import Module": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "im",
     "body": [
       "import { $1 } from '$2'"
@@ -41,7 +41,7 @@
     "description": "Import a module."
   },
   "Export All": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "ex",
     "body": [
       "export * from '$2'"
