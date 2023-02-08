@@ -131,12 +131,23 @@
     "class",
     "className",
     "ngClass",
+    "active-class",
     "enter-active-class",
     "enter-from-class",
     "enter-to-class",
     "leave-active-class",
     "leave-from-class",
-    "leave-to-class"
+    "leave-to-class",
+    "enter",
+    "enter-from",
+    "enter-to",
+    "enterFrom",
+    "enterTo",
+    "leave",
+    "leave-from",
+    "leave-to",
+    "leaveFrom",
+    "leaveTo"
   ],
   "tailwindCSS.includeLanguages": {
     "markdown": "html"
