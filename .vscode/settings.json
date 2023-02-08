@@ -164,6 +164,7 @@
   },
   "better-phpunit.commandSuffix": "--no-coverage --no-logging",
   "better-pest.commandSuffix": "--no-coverage --no-logging",
+  "inertia.pagesFolder": "resources/js/pages",
 
   // Markdown
   "[markdown]": {
