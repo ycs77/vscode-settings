@@ -1,43 +1,27 @@
 {
-	"Class File": {
-    "scope": "html",
-		"prefix": "phpclass",
-		"body": [
-			"<?php",
-			"",
-			"class ${TM_FILENAME_BASE}",
-			"{",
-			"    $1",
-			"}",
-			"",
-		],
-		"description": "New class file."
-	},
-	"Interface File": {
-    "scope": "html",
-		"prefix": "phpclass",
-		"body": [
-			"<?php",
-			"",
-			"interface ${TM_FILENAME_BASE}",
-			"{",
-			"    $1",
-			"}",
-			"",
-		],
-		"description": "New interface file."
-	},
 	"Class": {
     "scope": "php",
 		"prefix": "class",
 		"body": [
 			"class ${TM_FILENAME_BASE}",
 			"{",
-			"    $1",
+			"    //",
 			"}",
 			"",
 		],
 		"description": "New class."
+	},
+	"Interface": {
+    "scope": "php",
+		"prefix": "interface",
+		"body": [
+			"interface ${TM_FILENAME_BASE}",
+			"{",
+			"    //",
+			"}",
+			"",
+		],
+		"description": "New interface."
 	},
 	"Public Method": {
     "scope": "php",
