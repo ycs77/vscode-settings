@@ -175,7 +175,7 @@
   },
   "better-phpunit.commandSuffix": "--no-coverage --no-logging",
   "better-pest.commandSuffix": "--no-coverage --no-logging",
-  "inertia.pagesFolder": "resources/js/pages",
+  "inertia.pages": "resources/js/pages/**/*.vue",
 
   // Markdown
   "[markdown]": {
