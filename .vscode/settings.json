@@ -171,7 +171,7 @@
   "namespaceResolver.sortAlphabetically": true,
   "[php]": {
     // Set original word selection in php file.
-    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?"
   },
   "better-phpunit.commandSuffix": "--no-coverage --no-logging",
   "better-pest.commandSuffix": "--no-coverage --no-logging",
