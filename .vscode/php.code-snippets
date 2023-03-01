@@ -110,5 +110,14 @@
 			"}",
 		],
 		"description": "New dependency injection construct method."
-	}
+	},
+  "Closure": {
+    "scope": "php",
+		"prefix": "af",
+		"body": [
+			"function () {",
+			"\t",
+			"}"
+		]
+  }
 }
