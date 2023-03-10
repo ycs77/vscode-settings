@@ -159,6 +159,9 @@
 
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "[jsonc]": {
+    "editor.codeLens": true
+  },
 
   // Vue
   "volar.icon.splitEditors": false,
