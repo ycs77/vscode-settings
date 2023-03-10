@@ -161,7 +161,6 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
 
   // Vue
-  "volar.icon.preview": false,
   "volar.icon.splitEditors": false,
   "volar.completion.preferredTagNameCase": "pascal",
 
