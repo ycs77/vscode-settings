@@ -165,6 +165,7 @@
 
   // Vue
   "volar.icon.splitEditors": false,
+  "volar.inlayHints.missingRequiredProps": false,
   "volar.completion.preferredTagNameCase": "pascal",
 
   // PHP
