@@ -9,6 +9,10 @@
     "antfu.unocss",
     "voorjaar.windicss-intellisense",
 
+    // TS
+    "johnsoncodehk.vscode-tsconfig-helper", // must setting the vscode config "editor.codeLens" to `true`
+    "Orta.vscode-twoslash-queries",
+
     // Vue
     "vue.volar",
     "vue.vscode-typescript-vue-plugin",
@@ -19,6 +23,7 @@
     "mehedidracula.php-namespace-resolver",
     "neilbrayfield.php-docblocker",
     "m1guelpf.better-pest",
+    "nhedger.inertia",
 
     // Plugins support
     "ms-ceintl.vscode-language-pack-zh-hant",
@@ -31,6 +36,8 @@
     "mkxml.vscode-filesize",
     "usernamehw.errorlens",
     "antfu.goto-alias",
-    "mhutchie.git-graph",
+    "wmaurer.change-case",
+    "jeff-hykin.polacode-2019",
+    "Gruntfuggly.todo-tree",
   ]
 }
