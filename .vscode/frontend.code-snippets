@@ -1,42 +1,42 @@
 {
-	"Print to console": {
+  "Print to console": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
-		"prefix": "log",
-		"body": [
-			"console.log()"
-		],
-		"description": "Log output to console."
-	},
-	"Function": {
+    "prefix": "log",
+    "body": [
+      "console.log($0)"
+    ],
+    "description": "Log output to console."
+  },
+  "Function": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
-		"prefix": "ff",
-		"body": [
-			"function $1() {",
-			"\t",
-			"}"
-		]
-	},
-	"Arrow Function": {
+    "prefix": "ff",
+    "body": [
+      "function $0() {",
+      "\t",
+      "}"
+    ]
+  },
+  "Arrow Function": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
-		"prefix": "af",
-		"body": [
-			"() => {",
-			"\t",
-			"}"
-		]
-	},
-	"Single Arrow Function": {
+    "prefix": "af",
+    "body": [
+      "() => {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "Single Arrow Function": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
-		"prefix": "sf",
-		"body": [
-			"() => "
-		]
-	},
+    "prefix": "sf",
+    "body": [
+      "() => "
+    ]
+  },
   "Import Module": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "im",
     "body": [
-      "import { $1 } from '$2'"
+      "import { $0 } from '$1'"
     ],
     "description": "Import a module."
   },
@@ -44,46 +44,56 @@
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "ex",
     "body": [
-      "export * from '$2'"
+      "export * from '$0'"
     ],
     "description": "Export a module."
   },
-	"Vue SFC File": {
+  "Vue SFC File": {
     "scope": "vue",
-		"prefix": "vue",
-		"body": [
-			"<template>",
-      "  <div>",
-      "    ",
-      "  </div>",
-			"</template>",
-			"",
-			"<script setup lang=\"ts\">",
-			"",
-			"</script>",
-			""
-		]
-	},
-  "Vue Template Ref": {
-    "scope": "javascript,typescript,vue",
-    "prefix": "tref",
+    "prefix": "vue",
     "body": [
-      "const ${1:el} = shallowRef<HTMLDivElement>()",
+      "<template>",
+      "  <div>",
+      "    $0",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      ""
     ]
   },
+  "Import From Vue": {
+    "scope": "javascript,typescript",
+    "prefix": "imvue",
+    "body": [
+      "import { $0 } from 'vue'"
+    ],
+    "description": "Import from vue."
+  },
   "Vue Computed": {
-    "scope": "javascript,typescript,vue",
+    "scope": "javascript,typescript",
     "prefix": "com",
     "body": [
-      "computed(() => $1)"
+      "computed(() => $0)"
+    ]
+  },
+  "Vue Watch": {
+    "scope": "javascript,typescript",
+    "prefix": "watch",
+    "body": [
+      "watch($1, () => {",
+      "  $0",
+      "})"
     ]
   },
   "Vue Watch Effect": {
-    "scope": "javascript,typescript,vue",
+    "scope": "javascript,typescript",
     "prefix": "watchE",
     "body": [
       "watchEffect(() => {",
-      "  $1",
+      "  $0",
       "})"
     ]
   }
