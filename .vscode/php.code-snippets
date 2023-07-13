@@ -23,6 +23,18 @@
     ],
     "description": "New interface."
   },
+  "Trait": {
+    "scope": "php",
+    "prefix": "trait",
+    "body": [
+      "trait ${TM_FILENAME_BASE}",
+      "{",
+      "    //$0",
+      "}",
+      "",
+    ],
+    "description": "New trait."
+  },
   "Public Method": {
     "scope": "php",
     "prefix": "met",
