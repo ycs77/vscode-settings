@@ -125,7 +125,7 @@
   },
   "Closure": {
     "scope": "php",
-    "prefix": "af",
+    "prefix": "ff",
     "body": [
       "function () {",
       "\t$0",
