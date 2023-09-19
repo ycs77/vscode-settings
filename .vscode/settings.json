@@ -164,6 +164,12 @@
   "volar.icon.splitEditors": false,
   "volar.inlayHints.missingRequiredProps": false,
   "volar.completion.preferredTagNameCase": "pascal",
+  "nuxtr.vueFiles.firstTag": "template",
+  "nuxtr.vueFiles.script.type": "setup",
+  "nuxtr.vueFiles.script.defaultLanguage": "ts",
+  "nuxtr.vueFiles.style.addStyleTag": false,
+  "nuxtr.vueFiles.style.alwaysScoped": true,
+  "nuxtr.vueFiles.style.defaultLanguage": "css",
 
   // PHP
   "php.suggest.basic": false,
