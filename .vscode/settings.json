@@ -36,6 +36,7 @@
 
   // Silence the Noise
   "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
   "editor.matchBrackets": "always",
   "editor.lightbulb.enabled": false,
   "editor.overviewRulerBorder": false,
@@ -80,7 +81,9 @@
   "files.associations": {
     "*.css": "tailwindcss",
     ".php_cs": "php",
-    ".php_cs.dist": "php"
+    ".php_cs.dist": "php",
+    ".env": "dotenv",
+    ".env.example": "dotenv"
   },
 
   // // Find
