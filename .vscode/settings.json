@@ -76,10 +76,10 @@
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   "files.associations": {
     "*.css": "tailwindcss",
-    ".php_cs": "php",
     ".php_cs.dist": "php",
-    ".env": "dotenv",
-    ".env.example": "dotenv"
+    ".php_cs": "php",
+    ".env.example": "dotenv",
+    ".env": "dotenv"
   },
 
   // // Find
