@@ -24,11 +24,8 @@
   "workbench.editor.enablePreview": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
-
-  // Control the Blocks Visible
-  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
   "editor.guides.indentation": true,
   "editor.minimap.enabled": true,
@@ -71,7 +68,6 @@
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.restoreViewState": false,
   "workbench.editor.scrollToSwitchTabs": true,
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.layoutControl.enabled": false,
   "telemetry.telemetryLevel": "crash",
 
@@ -155,7 +151,9 @@
   "windicss.includeLanguages": {
     "markdown": "html"
   },
-  "unocss.underline": false,
+  "unocss.autocomplete.matchType": "fuzzy",
+  "unocss.remToPxPreview": true,
+  "unocss.underline": true,
 
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "never",
