@@ -76,10 +76,16 @@
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   "files.associations": {
     "*.css": "tailwindcss",
-    ".php_cs.dist": "php",
     ".php_cs": "php",
+    ".php_cs.dist": "php",
     ".env.example": "dotenv",
     ".env": "dotenv"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/vendor/*/**": true
   },
 
   // // Find
