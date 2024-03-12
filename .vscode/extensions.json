@@ -8,15 +8,13 @@
     "Zignd.html-css-class-completion",
     "bradlc.vscode-tailwindcss",
     "antfu.unocss",
-    "voorjaar.windicss-intellisense",
 
     // TS
     "johnsoncodehk.vscode-tsconfig-helper", // must setting the vscode config "editor.codeLens" to `true`
     "Orta.vscode-twoslash-queries",
 
     // Vue
-    "vue.volar",
-    "vue.vscode-typescript-vue-plugin",
+    "Vue.volar",
 
     // Laravel
     "onecentlin.laravel-blade",
