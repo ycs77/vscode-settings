@@ -172,16 +172,10 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "nuxtr.vueFiles.firstTag": "template",
-  "nuxtr.vueFiles.script.type": "setup",
-  "nuxtr.vueFiles.script.defaultLanguage": "ts",
-  "nuxtr.vueFiles.style.addStyleTag": false,
-  "nuxtr.vueFiles.style.alwaysScoped": true,
-  "nuxtr.vueFiles.style.defaultLanguage": "css",
 
   // PHP
   "php.suggest.basic": false,
-  "php.validate.executablePath": "C:/laragon/bin/php/php-8.1.14-Win32-vs16-x64/php.exe",
+  "php.validate.executablePath": "C:/laragon/bin/php/php-8.3.6-Win32-vs16-x64/php.exe",
   "namespaceResolver.sortAlphabetically": true,
   "[php]": {
     // Set original word selection in php file.
@@ -196,18 +190,16 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
 
-  // AI
+  // GitHub
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false
   },
+  "githubPullRequests.pullBranch": "never",
 
   // Extensions
-  "settingsSync.ignoredExtensions": [
-    "github.copilot"
-  ],
   "liveServer.settings.donotShowInfoMsg": true,
   "errorLens.enabledDiagnosticLevels": [
     "warning",
