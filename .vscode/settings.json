@@ -175,7 +175,7 @@
 
   // PHP
   "php.suggest.basic": false,
-  "php.validate.executablePath": "C:/laragon/bin/php/php-8.3.6-Win32-vs16-x64/php.exe",
+  "php.validate.executablePath": "C:/laragon/bin/php/php-8.3.8-Win32-vs16-x64/php.exe",
   "namespaceResolver.sortAlphabetically": true,
   "[php]": {
     // Set original word selection in php file.
