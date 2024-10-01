@@ -13,7 +13,6 @@
   // Clean setting
   "window.newWindowDimensions": "inherit",
   "window.menuBarVisibility": "toggle",
-  "workbench.editor.enablePreview": true,
   "workbench.sideBar.location": "left",
   "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
@@ -80,8 +79,10 @@
     "*.css": "tailwindcss",
     ".php_cs": "php",
     ".php_cs.dist": "php",
+    ".env": "dotenv",
     ".env.example": "dotenv",
-    ".env": "dotenv"
+    ".env.testing": "dotenv",
+    "artisan": "php"
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -106,10 +107,24 @@
   //   "**/pnpm-lock.yaml": true,
   //   "**/auto-imports.d.ts": true,
   //   "**/components.d.ts": true,
-  //   "**/.eslintrc-auto-import.json": true,
   //   "storage": true,
   //   ".phpunit.result.cache": true
   // },
+
+  // Explorer
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "composer.json": "composer.lock",
+    "psalm.xml": "psalm-baseline.xml",
+    ".php-cs-fixer.php": ".php-cs-fixer.cache",
+    "phpunit.xml": ".phpunit.result.cache",
+    "*.php": "${basename}Test.php"
+  },
 
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -126,7 +141,10 @@
   // Emmet
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
-  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "blade.php": "html",
+    "astro": "html"
+  },
 
   // CSS
   "css.validate": false,
@@ -199,6 +217,11 @@
     "scminput": false
   },
   "githubPullRequests.pullBranch": "never",
+
+  // Remote
+  "remote.SSH.remotePlatform": {
+    "*": "linux"
+  },
 
   // Extensions
   "liveServer.settings.donotShowInfoMsg": true,
