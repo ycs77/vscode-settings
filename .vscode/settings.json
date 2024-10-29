@@ -41,7 +41,7 @@
   "editor.renderLineHighlight": "none",
   "editor.renderControlCharacters": false,
   // "editor.gotoLocation.multipleReferences": "goto",
-  // "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
   // "editor.gotoLocation.multipleDeclarations": "goto",
   // "editor.gotoLocation.multipleImplementations": "goto",
   // "editor.gotoLocation.multipleTypeDefinitions": "goto",
