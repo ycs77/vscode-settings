@@ -191,6 +191,7 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
+  "vue.server.hybridMode": true,
 
   // PHP
   "php.suggest.basic": false,
@@ -230,51 +231,7 @@
     "error"
   ],
   "errorLens.excludeBySource": [
-    "cSpell",
     "Grammarly",
     "eslint"
-  ],
-  "cSpell.enabled": false,
-  "cSpell.language": "en,en-US,lorem",
-  "cSpell.allowCompoundWords": true,
-  "cSpell.userWords": [
-    "Aegisub",
-    "caniuse",
-    "demi",
-    "Ecommerce",
-    "esbuild",
-    "floatingui",
-    "Icones",
-    "Icônes",
-    "Iconify",
-    "iframe",
-    "inertiajs",
-    "Noto",
-    "Nuxt",
-    "qrcode",
-    "Rollup",
-    "unocss",
-    "unplugin",
-    "Vite",
-    "vitepress",
-    "vueuse",
-    "wsrun"
-  ],
-  "cSpell.ignorePaths": [
-    ".git",
-    ".vscode",
-    ".vscode-insiders",
-    "vscode-extension",
-    "vendor",
-    "node_modules",
-    "dist",
-    "_ide_helper.php",
-    "composer.lock",
-    "package-lock.json",
-    "yarn.lock",
-    "pnpm-lock.yaml",
-    "auto-imports.d.ts",
-    "components.d.ts",
-    ".eslintrc-auto-import.json"
   ]
 }
