@@ -30,6 +30,7 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
 
   // Silence the Noise
   "workbench.startupEditor": "none",
