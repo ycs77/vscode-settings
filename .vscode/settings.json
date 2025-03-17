@@ -80,9 +80,7 @@
     "*.css": "tailwindcss",
     ".php_cs": "php",
     ".php_cs.dist": "php",
-    ".env": "dotenv",
-    ".env.example": "dotenv",
-    ".env.testing": "dotenv",
+    ".env*": "dotenv",
     "artisan": "php"
   },
   "files.watcherExclude": {
