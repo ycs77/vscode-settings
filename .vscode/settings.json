@@ -171,6 +171,7 @@
     "leaveTo"
   ],
   "tailwindCSS.includeLanguages": {
+    "astro": "html",
     "markdown": "html"
   },
   "windicss.includeLanguages": {
