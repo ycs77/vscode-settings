@@ -174,9 +174,6 @@
     "astro": "html",
     "markdown": "html"
   },
-  "windicss.includeLanguages": {
-    "markdown": "html"
-  },
   "unocss.autocomplete.matchType": "fuzzy",
   "unocss.remToPxPreview": true,
   "unocss.underline": true,
@@ -218,6 +215,9 @@
     "scminput": false
   },
   "githubPullRequests.pullBranch": "never",
+
+  // AI
+  "chat.agent.enabled": true,
 
   // Remote
   "remote.SSH.remotePlatform": {
