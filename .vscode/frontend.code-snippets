@@ -64,6 +64,27 @@
       ""
     ]
   },
+  "Vue SFC File with Class Prop": {
+    "scope": "vue",
+    "prefix": "vuecl",
+    "body": [
+      "<template>",
+      "  <div :class=\"cn('', props.class)\">",
+      "    $0",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "import type { HTMLAttributes } from 'vue'",
+      "import { cn } from '@/utils/className'",
+      "",
+      "const props = defineProps<{",
+      "  class?: HTMLAttributes['class']",
+      "}>()",
+      "</script>",
+      ""
+    ]
+  },
   "Import From Vue": {
     "scope": "javascript,typescript",
     "prefix": "imvue",
