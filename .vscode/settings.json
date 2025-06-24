@@ -232,7 +232,6 @@
     "error"
   ],
   "errorLens.excludeBySource": [
-    "Grammarly",
     "eslint"
   ]
 }
