@@ -1,6 +1,7 @@
 # Lucas Yang's VS Code Settings
 
 * [`.vscode/settings.json`](.vscode/settings.json)
+* [`.vscode/keybindings.json`](.vscode/keybindings.json)
 * [`.vscode/frontend.code-snippets`](.vscode/frontend.code-snippets)
 * [`.vscode/php.code-snippets`](.vscode/php.code-snippets)
 * [`.vscode/extensions.json`](.vscode/extensions.json)
