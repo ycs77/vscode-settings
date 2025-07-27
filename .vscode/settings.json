@@ -220,6 +220,11 @@
   // AI
   "chat.agent.enabled": true,
 
+  // Container
+  "containers.environment": {
+    "DOCKER_HOST": "tcp://localhost:2375"
+  },
+
   // Remote
   "remote.SSH.remotePlatform": {
     "*": "linux"
