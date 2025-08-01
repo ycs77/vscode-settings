@@ -219,6 +219,10 @@
 
   // AI
   "chat.agent.enabled": true,
+  "chat.promptFiles": true,
+  "chat.mcp.enabled": true,
+  "chat.mcp.discovery.enabled": false,
+  "chat.tools.autoApprove": false,
 
   // Container
   "containers.environment": {
