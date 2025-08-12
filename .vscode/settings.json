@@ -141,8 +141,8 @@
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
-    "blade.php": "html",
-    "astro": "html"
+    "astro": "html",
+    "blade.php": "html"
   },
 
   // CSS
@@ -173,6 +173,7 @@
   ],
   "tailwindCSS.includeLanguages": {
     "astro": "html",
+    "blade.php": "html",
     "markdown": "html"
   },
   "unocss.autocomplete.matchType": "fuzzy",
