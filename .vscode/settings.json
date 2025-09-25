@@ -221,9 +221,14 @@
   // AI
   "chat.agent.enabled": true,
   "chat.promptFiles": true,
-  "chat.mcp.enabled": true,
-  "chat.mcp.discovery.enabled": false,
   "chat.tools.autoApprove": false,
+  "chat.mcp.discovery.enabled": {
+    "claude-desktop": false,
+    "windsurf": false,
+    "cursor-global": false,
+    "cursor-workspace": false
+  },
+  "chat.mcp.access": "all",
 
   // Container
   "containers.environment": {
