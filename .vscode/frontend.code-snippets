@@ -54,7 +54,7 @@
     "body": [
       "<template>",
       "  <div>",
-      "    $0",
+      "    <!--  -->",
       "  </div>",
       "</template>",
       "",
@@ -70,7 +70,7 @@
     "body": [
       "<template>",
       "  <div :class=\"cn('', props.class)\">",
-      "    $0",
+      "    <!--  -->",
       "  </div>",
       "</template>",
       "",
