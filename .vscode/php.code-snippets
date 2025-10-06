@@ -35,6 +35,18 @@
     ],
     "description": "New trait."
   },
+  "Enum": {
+    "scope": "php",
+    "prefix": "enum",
+    "body": [
+      "enum ${TM_FILENAME_BASE}",
+      "{",
+      "    //$0",
+      "}",
+      "",
+    ],
+    "description": "New enum."
+  },
   "Public Method": {
     "scope": "php",
     "prefix": "met",
