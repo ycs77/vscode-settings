@@ -5,13 +5,7 @@
     "sdras.night-owl",
 
     // CSS
-    "Zignd.html-css-class-completion",
     "bradlc.vscode-tailwindcss",
-    "antfu.unocss",
-
-    // TS
-    "johnsoncodehk.vscode-tsconfig-helper", // must setting the vscode config "editor.codeLens" to `true`
-    "Orta.vscode-twoslash-queries",
 
     // Vue
     "Vue.volar",
