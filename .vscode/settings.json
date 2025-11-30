@@ -89,6 +89,9 @@
     "**/node_modules/*/**": true,
     "**/vendor/*/**": true
   },
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor"
+  },
 
   // // Find
   // "search.useIgnoreFiles": false,
