@@ -193,7 +193,6 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "vue.server.hybridMode": true,
 
   // PHP
   "php.suggest.basic": false,
@@ -219,19 +218,14 @@
     "markdown": true,
     "scminput": false
   },
-  "githubPullRequests.pullBranch": "never",
 
   // GitHub Copilot
-  "chat.promptFiles": true,
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
       "text": "Generate commit messages with English. Keep messages concise and focused on the core changes. Use imperative mood (e.g., 'Add feature' not 'Added feature'). Highlight the main purpose and impact of the changes without unnecessary details."
     }
   ],
-  // AI Agent
-  "chat.agent.enabled": true,
   // MCP Tools
-  "chat.tools.autoApprove": false,
   "chat.mcp.discovery.enabled": {
     "claude-desktop": false,
     "windsurf": false,
