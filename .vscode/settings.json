@@ -128,6 +128,10 @@
     "*.php": "${basename}Test.php"
   },
 
+  // Settings Sync
+  "settingsSync.ignoredSettings": [],
+  "settingsSync.ignoredExtensions": [],
+
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorBlinking": true,
