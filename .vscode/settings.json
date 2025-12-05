@@ -229,6 +229,7 @@
       "text": "Generate commit messages with English. Keep messages concise and focused on the core changes. Use imperative mood (e.g., 'Add feature' not 'Added feature'). Highlight the main purpose and impact of the changes without unnecessary details."
     }
   ],
+  "github.copilot.nextEditSuggestions.enabled": true,
   // MCP Tools
   "chat.mcp.discovery.enabled": {
     "claude-desktop": false,
