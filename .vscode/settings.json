@@ -230,6 +230,7 @@
     }
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.useNestedAgentsMdFiles": true,
   // MCP Tools
   "chat.mcp.discovery.enabled": {
     "claude-desktop": false,
