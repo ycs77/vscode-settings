@@ -233,6 +233,7 @@
     }
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.useAgentSkills": true,
   "chat.useNestedAgentsMdFiles": true,
   // MCP Tools
   "chat.mcp.discovery.enabled": {
