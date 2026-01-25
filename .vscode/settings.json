@@ -132,8 +132,8 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.windowsEnableConpty": false,
-  "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.stickyScroll.enabled": false,
 
   // Settings Sync
   "settingsSync.ignoredSettings": [],
