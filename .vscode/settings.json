@@ -230,7 +230,7 @@
   // GitHub Copilot
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "Generate commit messages with English. Keep messages concise and focused on the core changes. Use imperative mood (e.g., 'Add feature' not 'Added feature'). Highlight the main purpose and impact of the changes without unnecessary details."
+      "text": "Generate concise, descriptive Git commit messages in English. Use imperative mood and keep under 72 characters. Types: Add, Update, Remove, Rename, Fix, Improve, Optimize, Refactor, Document, Test, Chore. Examples: 'Add user authentication with JWT tokens', 'Fix null pointer in user service', 'Refactor user service to repository pattern'."
     }
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
