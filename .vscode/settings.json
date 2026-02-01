@@ -245,6 +245,9 @@
   },
   "chat.mcp.access": "all",
 
+  // Claude Code
+  "claudeCode.preferredLocation": "panel",
+
   // Container
   "containers.environment": {
     "DOCKER_HOST": "tcp://localhost:2375"
