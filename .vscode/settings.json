@@ -154,6 +154,12 @@
     "blade.php": "html"
   },
 
+  // JSON
+  "json.schemaDownload.trustedDomains": {
+    "https://openapi.vercel.sh/": true,
+    "https://shadcn-vue.com/": true
+  },
+
   // CSS
   "css.validate": false,
   "tailwindCSS.emmetCompletions": true,
