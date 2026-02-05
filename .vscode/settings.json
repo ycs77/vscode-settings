@@ -236,6 +236,7 @@
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
   "chat.useNestedAgentsMdFiles": true,
+  "chat.viewSessions.orientation": "stacked",
 
   // Claude Code
   "claudeCode.preferredLocation": "panel",
