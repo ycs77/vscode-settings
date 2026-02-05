@@ -234,15 +234,7 @@
     }
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
-  "chat.useAgentSkills": true,
   "chat.useNestedAgentsMdFiles": true,
-  "chat.mcp.discovery.enabled": {
-    "claude-desktop": false,
-    "windsurf": false,
-    "cursor-global": false,
-    "cursor-workspace": false
-  },
-  "chat.mcp.access": "all",
 
   // Claude Code
   "claudeCode.preferredLocation": "panel",
