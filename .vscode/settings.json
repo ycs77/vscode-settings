@@ -229,6 +229,7 @@
   // GitHub
   "github.copilot.enable": {
     "*": true,
+    "dotenv": false,
     "plaintext": false,
     "markdown": true,
     "scminput": false
