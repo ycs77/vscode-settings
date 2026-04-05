@@ -196,7 +196,7 @@
   "unocss.underline": true,
 
   // Javascript
-  "javascript.updateImportsOnFileMove.enabled": "never",
+  "js/ts.updateImportsOnFileMove.enabled": "never",
   "[jsonc]": {
     "editor.codeLens": true
   },
