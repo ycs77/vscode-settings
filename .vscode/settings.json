@@ -227,6 +227,9 @@
   },
 
   // GitHub
+  "githubPullRequests.pullBranch": "never",
+
+  // GitHub Copilot
   "github.copilot.enable": {
     "*": true,
     "dotenv": false,
@@ -234,8 +237,6 @@
     "markdown": true,
     "scminput": false
   },
-
-  // GitHub Copilot
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
       "text": "Generate concise, descriptive Git commit messages in English. Use imperative mood and keep under 72 characters. Types: Add, Update, Remove, Rename, Fix, Improve, Optimize, Refactor, Document, Test, Chore. Examples: 'Add user authentication with JWT tokens', 'Fix null pointer in user service', 'Refactor user service to repository pattern'."
@@ -243,6 +244,7 @@
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
   "chat.useNestedAgentsMdFiles": true,
+  "chat.tips.enabled": false,
   "chat.viewSessions.orientation": "stacked",
 
   // Claude Code
