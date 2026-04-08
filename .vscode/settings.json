@@ -239,7 +239,7 @@
   },
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "Generate concise, descriptive Git commit messages in English. Use imperative mood and keep under 72 characters. Types: Add, Update, Remove, Rename, Fix, Improve, Optimize, Refactor, Document, Test, Chore. Examples: 'Add user authentication with JWT tokens', 'Fix null pointer in user service', 'Refactor user service to repository pattern'."
+      "text": "Generate concise, descriptive Git commit messages in English. Use imperative mood and keep under 72 characters. Focus on the 'what' and 'why' of the change. Avoid generic messages like 'update code' or 'fix bug'. Do not use type prefixes (e.g., feat:, fix:) unless the project uses Conventional Commits. Output only the commit message with no explanation."
     }
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
