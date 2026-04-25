@@ -191,6 +191,7 @@
     "blade.php": "html",
     "markdown": "html"
   },
+  "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
   "unocss.autocomplete.matchType": "fuzzy",
   "unocss.remToPxPreview": true,
   "unocss.underline": true,
