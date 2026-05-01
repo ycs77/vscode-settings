@@ -145,6 +145,7 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.enableCommitSigning": false,
+  "git.addAICoAuthor": "off",
 
   // Emmet
   "emmet.triggerExpansionOnTab": true,
