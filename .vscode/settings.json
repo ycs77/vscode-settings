@@ -78,10 +78,11 @@
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   "files.associations": {
     "*.css": "tailwindcss",
+    ".env*": "dotenv",
     ".php_cs": "php",
     ".php_cs.dist": "php",
-    ".env*": "dotenv",
-    "artisan": "php"
+    "artisan": "php",
+    "**/.ai/guidelines/**/*.blade.php": "markdown"
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
