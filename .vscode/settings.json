@@ -266,6 +266,7 @@
   },
 
   // Remote
+  "remote.autoForwardPortsSource": "hybrid",
   "remote.SSH.remotePlatform": {
     "*": "linux"
   },
