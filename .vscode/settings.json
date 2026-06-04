@@ -157,6 +157,7 @@
 
   // JSON
   "json.schemaDownload.trustedDomains": {
+    "https://getcomposer.org/": true,
     "https://openapi.vercel.sh/": true,
     "https://shadcn-vue.com/": true
   },
