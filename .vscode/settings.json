@@ -13,9 +13,11 @@
   // Clean setting
   "window.newWindowDimensions": "inherit",
   "window.menuBarVisibility": "toggle",
-  "workbench.sideBar.location": "left",
   "workbench.editor.showTabs": "multiple",
+  "workbench.editor.useModal": "off",
+  "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": true,
+  "workbench.settings.editor": "json",
   "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
   "editor.copyWithSyntaxHighlighting": false,
