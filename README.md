@@ -7,10 +7,6 @@
 * [`.vscode/php.code-snippets`](.vscode/php.code-snippets)
 * [`.vscode/extensions.json`](.vscode/extensions.json)
 
-## User AI Prompts
-
-* [`.github/prompts`](.github/prompts)
-
 ## Credit
 
 * [Anthony's VS Code Settings](https://github.com/antfu/vscode-settings)
