@@ -61,7 +61,9 @@
   "editor.suggest.localityBonus": true,
   "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
-    "strings": true
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
