@@ -86,7 +86,7 @@
     ".php_cs": "php",
     ".php_cs.dist": "php",
     "artisan": "php",
-    "**/.ai/guidelines/**/*.blade.php": "markdown",
+    "**/.ai/**/*.blade.php": "markdown",
     "wsl-settings.json": "jsonc"
   },
   "files.watcherExclude": {
