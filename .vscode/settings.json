@@ -269,11 +269,6 @@
   // Claude Code
   "claudeCode.preferredLocation": "panel",
 
-  // Container
-  "containers.environment": {
-    "DOCKER_HOST": "tcp://localhost:2375"
-  },
-
   // Remote
   "remote.autoForwardPortsSource": "hybrid",
   "remote.SSH.remotePlatform": {
