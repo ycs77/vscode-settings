@@ -228,6 +228,7 @@
     // Set original word selection in php file.
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?"
   },
+  "Laravel.phpEnvironment": "local",
   "better-phpunit.commandSuffix": "--no-coverage --no-logging",
   "better-pest.commandSuffix": "--no-coverage --no-logging",
   "inertia.pages": "resources/js/pages/**/*.vue",
