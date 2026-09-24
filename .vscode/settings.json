@@ -4,6 +4,7 @@
   "workbench.preferredDarkColorTheme": "Night Owl (No Italics)",
   "workbench.preferredLightColorTheme": "Night Owl Light (No Italics)",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.experimental.modernUI": false,
   "editor.fontFamily": "Consolas, Courier New, Microsoft JhengHei, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 14,
