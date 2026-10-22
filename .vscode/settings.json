@@ -17,6 +17,7 @@
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.useModal": "off",
   "workbench.sideBar.location": "left",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.statusBar.visible": true,
   "workbench.settings.editor": "json",
   "editor.accessibilitySupport": "off",
@@ -256,7 +257,6 @@
     }
   ],
   "github.copilot.nextEditSuggestions.enabled": true,
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "chat.useNestedAgentsMdFiles": true,
   "chat.titleBar.openInAgentsWindow.enabled": false,
   "chat.tips.enabled": false,
