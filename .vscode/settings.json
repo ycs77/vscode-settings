@@ -3,8 +3,16 @@
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.preferredDarkColorTheme": "Night Owl (No Italics)",
   "workbench.preferredLightColorTheme": "Night Owl Light (No Italics)",
+  "workbench.colorCustomizations": {
+    "[Night Owl (No Italics)]": {
+      "modernTab.activeBackground": "#0b2942",
+      "modernTab.activeForeground": "#d2dee7",
+      "modernEditorTab.activeBackground": "#0b2942",
+      "modernEditorTab.activeForeground": "#d2dee7",
+      "modernEditorTab.inactiveBackground": "#01111d",
+    }
+  },
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.experimental.modernUI": false,
   "editor.fontFamily": "Consolas, Courier New, Microsoft JhengHei, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "editor.fontSize": 14,
