@@ -233,6 +233,8 @@
   "intelephense.inlayHint.parameterNames": false,
   "intelephense.inlayHint.parameterTypes": false,
   "intelephense.inlayHint.returnTypes": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedProperties": false,
   "namespaceResolver.sortAlphabetically": true,
   "[php]": {
     // Set original word selection in php file.
