@@ -106,26 +106,6 @@
     "**/vendor/*/**": true
   },
 
-  // // Find
-  // "search.useIgnoreFiles": false,
-  // "search.exclude": {
-  //   // Hide everything in /vendor, except the "laravel" "livewire" and "inertiajs" folder.
-  //   "**/vendor/{[^li],?[^ain]}*": true,
-  //   // Hide everything in /public, except "index.php"
-  //   "**/public/{[^i],?[^n]}*": true,
-  //   "**/node_modules": true,
-  //   "**/dist": true,
-  //   "**/_ide_helper.php": true,
-  //   "**/composer.lock": true,
-  //   "**/package-lock.json": true,
-  //   "**/yarn.lock": true,
-  //   "**/pnpm-lock.yaml": true,
-  //   "**/auto-imports.d.ts": true,
-  //   "**/components.d.ts": true,
-  //   "storage": true,
-  //   ".phpunit.result.cache": true
-  // },
-
   // Explorer
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
