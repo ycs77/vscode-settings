@@ -212,7 +212,9 @@
   "intelephense.inlayHint.returnTypes": false,
   "intelephense.diagnostics.undefinedMethods": false,
   "intelephense.diagnostics.undefinedProperties": false,
-  "namespaceResolver.sortAlphabetically": true,
+  "phpNamespaceResolver.autoSort": false,
+  "phpNamespaceResolver.highlightNotImported": false,
+  "phpNamespaceResolver.highlightNotUsed": false,
   "[php]": {
     // Set original word selection in php file.
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?"
